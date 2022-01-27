@@ -1,6 +1,159 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'droid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('truetype');
+}
+
+body {
+    margin: 0px;
+    background-color: #84e1ad;
+}
+
 header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#27a05b, #043d1c);
+    color: white;
+}
+
+header > h1 {
+    margin: 0px;
+    padding-top: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+header > p {
+    text-indent: 0px;
+    line-height: normal;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    padding-top: 16px;
+}
+
+nav {
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+nav > a {
+    color: #88d3a9;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+nav > a:hover {
+    background-color: #136338;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 16px;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 15px;
+    font-family: 'droid', Helvetica, sans-serif;
+    color: #153c26;
+    font-size: 1.5em;
+}
+
+p {
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.8;
+}
+
+h2 {
+    margin: 0px 20px 0px 20px;
+    padding-top: 0px;
+    padding-left: 5px;
+    font-family: 'droid', Helvetica, sans-serif;
+    color: #153c26;
+    background-image: linear-gradient(to right, #8fd5b5, white);
+    font-size: 1.2em;
+}
+
+.link {
+    background-color: #84e1ad;
+    font-weight: bold;
+    padding: 1px 4px 1px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #153c26;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#bugdroid {
+    width: auto;
+}
+
+.video {
+    background-color: #1a5c38;
+    padding: 25px 35px 25px 35px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.coluna {
+    display: inline-block;
+}
+
+.quadro {
+    background: #84e1ad;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding-bottom: 16px;
+}
+
+h3 {
+    background-color: #2fa866;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+footer {
+    background-color: #1a5c38;
+}
+
+footer > p {
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
