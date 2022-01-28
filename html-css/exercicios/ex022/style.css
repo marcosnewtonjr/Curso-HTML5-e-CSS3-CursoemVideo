@@ -129,10 +129,6 @@ iframe {
     width: 100%;
 }
 
-.coluna {
-    display: inline-block;
-}
-
 .quadro {
     background: #84e1ad;
     margin-left: 20px;
@@ -158,4 +154,9 @@ footer > p {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+}
+
+ul {
+    list-style-type: '\2714';
+    columns: 2;
 }
