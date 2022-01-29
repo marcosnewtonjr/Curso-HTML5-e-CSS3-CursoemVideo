@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh; /*Preencher espaço em banco*/
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover; /*Preencher a tela com a imagem*/
+            background-attachment: fixed; /*Fixar fundo, idependente da barra de rolagem*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] > attachment
+                Assim esta descrito no material da W3C mas size não funciona, tem que tirar ela da tag para executar a shorthand.
+            */
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat cover fixed;
+        }
+        main {
+            background-color: white;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati aliquam fugiat provident excepturi hic corrupti sapiente id quaerat non laborum, magnam explicabo magni enim repellat eius ab! Iure, nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae iusto omnis deserunt quis harum. Laboriosam est consequatur maiores qui labore! Inventore, harum cupiditate. Magni repellendus aliquid sunt odit voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quaerat necessitatibus provident corrupti repellendus error assumenda alias. Quos dolorum perspiciatis ullam hic dicta numquam provident repellendus reprehenderit vitae ab?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati aliquam fugiat provident excepturi hic corrupti sapiente id quaerat non laborum, magnam explicabo magni enim repellat eius ab! Iure, nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae iusto omnis deserunt quis harum. Laboriosam est consequatur maiores qui labore! Inventore, harum cupiditate. Magni repellendus aliquid sunt odit voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quaerat necessitatibus provident corrupti repellendus error assumenda alias. Quos dolorum perspiciatis ullam hic dicta numquam provident repellendus reprehenderit vitae ab?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati aliquam fugiat provident excepturi hic corrupti sapiente id quaerat non laborum, magnam explicabo magni enim repellat eius ab! Iure, nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae iusto omnis deserunt quis harum. Laboriosam est consequatur maiores qui labore! Inventore, harum cupiditate. Magni repellendus aliquid sunt odit voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quaerat necessitatibus provident corrupti repellendus error assumenda alias. Quos dolorum perspiciatis ullam hic dicta numquam provident repellendus reprehenderit vitae ab?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In obcaecati aliquam fugiat provident excepturi hic corrupti sapiente id quaerat non laborum, magnam explicabo magni enim repellat eius ab! Iure, nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae iusto omnis deserunt quis harum. Laboriosam est consequatur maiores qui labore! Inventore, harum cupiditate. Magni repellendus aliquid sunt odit voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore quaerat necessitatibus provident corrupti repellendus error assumenda alias. Quos dolorum perspiciatis ullam hic dicta numquam provident repellendus reprehenderit vitae ab?</p>
+    </main>
+</body>
+</html>
